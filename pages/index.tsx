@@ -78,7 +78,7 @@ export default function Home() {
               FUTURE
             </button>
             <h3>
-              Voters:{" "}
+              {" "}
               {
                 votes?.docs?.filter(
                   (doc) => (doc.data() as VoteDocument).vote === "no"
